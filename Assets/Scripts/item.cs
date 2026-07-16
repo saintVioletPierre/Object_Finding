@@ -15,7 +15,7 @@ public class item : MonoBehaviour
         // play sound
         // maybe have object fade out slightly before it disappears
 
-
+        
 
         Destroy(gameObject);
     }

@@ -7,9 +7,18 @@
             "id": "1b6f0861-73ca-4aaf-bf89-0f350e1b2858",
             "actions": [
                 {
-                    "name": "Click",
+                    "name": "Tap",
                     "type": "Button",
-                    "id": "d615fb17-b680-44ff-b513-3a1de4ff9e44",
+                    "id": "7d23353b-b61a-4a16-bda6-a8cec220d00a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Drag",
+                    "type": "Button",
+                    "id": "d0ba84d5-23d6-4476-8a8c-a0a6543b88b3",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -19,12 +28,34 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "c9f2b6f4-fcc9-4c4a-a2bb-0c1909a526b3",
+                    "id": "bb1f77cd-ad89-4aba-8501-c1c38a24e52a",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Drag",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f54e7367-3244-422b-a881-2f15b918399a",
                     "path": "<Mouse>/leftButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Click",
+                    "action": "Drag",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0e406dcb-c9db-4fb5-984b-20fce0209655",
+                    "path": "<Touchscreen>/primaryTouch/tap",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Tap",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
